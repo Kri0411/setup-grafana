@@ -1,0 +1,8 @@
+once the installation sh file is executed you can access the grafana on the port
+http://<your-server-ip>:3000 
+<server IP where grafana is installed>
+with user name and password as admin
+
+once login is successful you can create and visualize the queries etc
+
+INORDER TO send logs from a server to your grafana dashboard 
