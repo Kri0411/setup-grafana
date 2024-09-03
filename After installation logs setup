@@ -6,3 +6,9 @@ with user name and password as admin
 once login is successful you can create and visualize the queries etc
 
 INORDER TO send logs from a server to your grafana dashboard 
+
+To send logs from /opt/magic/logs/catalina.out on another server to your Grafana server and visualize them on the UI, you can use a logging stack like Promtail with Loki, which integrates well with Grafana. Here’s how you can set it up:
+
+Step 1: Install Loki on the Grafana Server
+Download Loki:
+wget https://github.com/grafana/loki/releases/latest/download/loki-linux-amd64.zip
