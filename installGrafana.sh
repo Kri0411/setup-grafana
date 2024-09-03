@@ -7,3 +7,4 @@ sudo apt-get update
 sudo apt-get install -y grafana
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
+echo "Installation of grafana server is completed"
